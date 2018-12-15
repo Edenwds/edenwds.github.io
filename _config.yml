@@ -3,7 +3,7 @@ url: "https://blog.buwan.ink/"
 
 baseurl: ""
 
-lang:                  en
+lang: en
 
 title: 布碗
 
@@ -12,37 +12,12 @@ title: 布碗
 description:           >
   Stay Hungry  Stay Young
 
-#twitter_username: jekyllrb
-github_username:  Edenwds
 # A list of keywords for your blog
 keywords:              []
-
-# A (square) logo for your site.
-# If provided, it will be shown at the top of the sidebar.
-# It also used by the `jekyll-seo-tag` plugin.
-#logo:                  /assets/icons/icon.png
-
-# This should be the same author as first entry in `_data/authors.yml`.
-author1:
-  social:
-    twitter: qwtel
-    github:  Edenwds
- # name:                <firstname> <lastname>
-  #email:               <mail@domain.tld>
-  # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
   © 2018.buwan
-
-# Add links to the footer.
-# Typically you'll want to link to your impress, cookies or privacy policy, etc.
-# legal:
-#   - title:             Impress
-#     href:              /impress/
-#   - title:             Cookies Policy
-#     href:              /cookies-policy/
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -50,6 +25,15 @@ permalink:             /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
 paginate_path:      /myblog/page-:num/
+
+# Gitalk
+gitalk:
+  enable: true
+  client_id: 370d40505bc537360c75
+  client_secret: 0893261f4457ae80bd62cb9573fc654e299db05c
+  repo:  Edenwds.github.io
+  owner: Edenwds
+  admin: Edenwds
 
 
 # Customizaton

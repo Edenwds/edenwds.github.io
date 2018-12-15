@@ -27,7 +27,8 @@
 <link rel="dns-prefetch" href="{{ '/assets/bower_components/katex/dist/katex.min.css'                       | relative_url }}" id="_hrefKatexCSS">
 <link rel="dns-prefetch" href="{{ '/assets/img/swipe.svg'                                                   | relative_url }}" id="_hrefSwipeSVG">
 
-{% assign disqus = site.disqus | default:site.disqus_shortname %}
-{% if disqus %}
-<link rel="dns-prefetch" href="https://{{ disqus }}.disqus.com" id="_hrefDisqus">
+{% assign gitalk = site.gitalk.enable %}
+{% if gitalk %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 {% endif %}
