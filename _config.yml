@@ -29,8 +29,8 @@ paginate_path:      /myblog/page-:num/
 # Gitalk
 gitalk:
   enable: true
-  client_id: 370d40505bc537360c75
-  client_secret: 0893261f4457ae80bd62cb9573fc654e299db05c
+  client_id: e29bb7aab86565d41f3c
+  client_secret: fec48902403acd5195573b57be210a871b0daa45
   repo:  Edenwds.github.io
   owner: Edenwds
   admin: Edenwds
