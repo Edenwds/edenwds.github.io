@@ -16,7 +16,7 @@
       repo:'{{ repo }}',
       owner:'{{ owner }}',
       admin:['{{ admin }}'],
-      id: location.pathname,
+      id: decodeURI(window.location.pathname),
       distractionFreeMode: false
   });
   gitalk.render('gitalk-container');
