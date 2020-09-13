@@ -1,9 +1,8 @@
 ---
 layout: list
-title: Archive
+title: 归档
 ctitle: 归档
 menu: true
 order: 3
 permalink: /archive
-accent_image: /assets/img/arch5.jpg
 ---

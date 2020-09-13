@@ -5,19 +5,19 @@ baseurl: ""
 
 lang: en
 
-title: 布碗
+title: wds
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Stay Hungry  Stay Young
+  吃饭 睡觉 很简单重要的两件事
 
 # A list of keywords for your blog
 keywords:              []
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2018.buwan
+  © 2018.xxdc
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -40,7 +40,7 @@ gitalk:
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/main2.jpg
+accent_image:          /assets/img/sidebar1.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
